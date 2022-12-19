@@ -12,14 +12,11 @@ PATH="${HOME}/.bin:${PATH}"
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 chmod a+rx ~/.bin/repo
 repo init --depth=1 -u $MANIFEST -b $MANIFEST_BRANCH
+git clone $LOCAL_MANIFEST --depth 1 -b $LOCALMANIFEST_BRANCH .repo/local_manifests
 
 # Sync the Sources
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
-
-# Clone Trees
-git clone --depth=1 $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Device Trees!" && exit 1; }
-git clone --depth=1 $VT_LINK $VT_PATH
-git clone --depth=1 $KT_LINK $KT_PATH
+ 
 
 # Exit
 exit 0
