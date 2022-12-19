@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the Source Directory
-cd $SYNC_PAT
+cd $SYNC_PATH
 
 # Display a message
 echo "============================"
