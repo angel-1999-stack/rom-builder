@@ -1,13 +1,13 @@
 env:
-    MANIFEST: https://github.com/RiceDroid/android.git
-    MANIFEST_BRANCH: thirteen
-    LOCAL_MANIFEST: https://github.com/xack21/local_manifest.git
+    MANIFEST: https://github.com/ArrowOS/android_manifest.git
+    MANIFEST_BRANCH: arrow-12.1
+    LOCAL_MANIFEST: https://github.com/adarsh956/local_manifest.git
     LOCALMANIFEST_BRANCH : main
-    DEVICE: fog
+    DEVICE: garden
     OEM: xiaomi
-    LUNCH_COMBO: lineage_fog-userdebug
+    LUNCH_COMBO: arrow_garden-userdebug
     TARGET: bacon
-    OUTPUT: lineage*.zip
+    OUTPUT: Arrow*.zip
 
     # Not Recommended to Change
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
