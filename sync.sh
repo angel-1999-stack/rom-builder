@@ -16,7 +16,6 @@ git clone $LOCAL_MANIFEST --depth 1 -b $LOCALMANIFEST_BRANCH .repo/local_manifes
 
 # Sync the Sources
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
- 
 
 # Exit
 exit 0
