@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/LineageOS/android.git
-    MANIFEST_BRANCH: lineage-20.0
+    MANIFEST: https://github.com/RiceDroid/android.git
+    MANIFEST_BRANCH: thirteen
     LOCAL_MANIFEST: https://github.com/xack21/local_manifest.git
     LOCALMANIFEST_BRANCH : main
     DEVICE: fog
