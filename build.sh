@@ -10,8 +10,6 @@ else
     ccache -M ${CCACHE_SIZE}
 fi
 
-# Run the Extra Command
-$EXTRA_CMD
 
 # Prepare the Build Environment
 source build/envsetup.sh
