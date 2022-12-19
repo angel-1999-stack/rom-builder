@@ -26,8 +26,7 @@ env:
 
 task:
   name: "AOSP Build"
-  trigger_type: manual
-  timeout_in: 120m
+  timeout_in: 240m
   container:
       image: registry.gitlab.com/sushrut1101/docker:latest
       cpu: 8
