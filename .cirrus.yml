@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://github.com/ArrowOS/android_manifest.git
-    MANIFEST_BRANCH: arrow-12.1
-    LOCAL_MANIFEST: https://github.com/adarsh956/local_manifest.git
+    MANIFEST: https://github.com/LineageOS/android.git
+    MANIFEST_BRANCH: lineage-20.0
+    LOCAL_MANIFEST: https://github.com/xack21/local_manifest.git
     LOCALMANIFEST_BRANCH : main
-    DEVICE: garden
+    DEVICE: fog
     OEM: xiaomi
-    LUNCH_COMBO: arrow_garden-userdebug
+    LUNCH_COMBO: lineage_fog-userdebug
     TARGET: bacon
     OUTPUT: Arrow*.zip
 
