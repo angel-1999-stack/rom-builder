@@ -21,7 +21,7 @@ env:
 task:
   name: "AOSP Build"
   container:
-      image: registry.gitlab.com/sushrut1101/docker:latest
+      image: apon77/aosp:cirrus
       cpu: 8
       memory: 32G
 
