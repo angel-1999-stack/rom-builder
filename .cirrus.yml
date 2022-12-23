@@ -20,7 +20,7 @@ env:
 
 task:
   name: "AOSP Build"
-  timeout_in: 120m
+  timeout_in: 6h
   container:
       image: apon77/aosp:cirrus
       cpu: 8
