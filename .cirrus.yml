@@ -20,11 +20,11 @@ env:
 
 task:
   name: "AOSP Build"
-  timeout_in: 120m
+  timeout_in: 360m
   container:
       image: apon77/aosp:cirrus
-      cpu: 24
-      memory: 120G
+      cpu: 8
+      memory: 32G
 
   Sync_script:
       - bash sync.sh
