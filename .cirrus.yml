@@ -7,7 +7,7 @@ env:
     OEM: xiaomi
     LUNCH_COMBO: lineage_lavender-userdebug
     TARGET: bacon
-    OUTPUT: ExodusOS*.zip
+    OUTPUT: ExoducOS*.zip
 
     # Not Recommended to Change
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
