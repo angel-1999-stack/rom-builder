@@ -6,7 +6,7 @@ env:
     DEVICE: lavender
     OEM: xiaomi
     LUNCH_COMBO: lineage_lavender-user
-    TARGET: bacon
+    TARGET: lavender
     OUTPUT: LineagOS*.zip
 
     # Not Recommended to Change
