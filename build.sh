@@ -12,13 +12,10 @@ fi
 
 
 # Prepare the Build Environment
-. build/envsetup.sh
+source build/envsetup.sh
 
 # lunch the target
-breakfast ${LUNCH_COMBO}
+lunch ${LUNCH_COMBO}
 
 # Build the Code
-brunch lavender
-
-
-
+make bacon
