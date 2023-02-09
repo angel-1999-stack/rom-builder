@@ -6,8 +6,8 @@ env:
     DEVICE: lavender
     OEM: xiaomi
     LUNCH_COMBO: lineage_lavender-user
-    TARGET: lavender
-    OUTPUT: LineagOS*.zip
+    TARGET: bacon
+    OUTPUT: LineageOS*.zip
 
     # Not Recommended to Change
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
