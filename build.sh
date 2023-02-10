@@ -15,7 +15,7 @@ fi
 source build/envsetup.sh
 
 # lunch the target
-lunch ${LUNCH_COMBO}
+lunch lineage_lavender-user
 
 # Build the Code
 make bacon
