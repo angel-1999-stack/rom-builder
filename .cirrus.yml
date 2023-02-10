@@ -5,9 +5,6 @@ env:
     LOCALMANIFEST_BRANCH : lineage-19.1
     DEVICE: lavender
     OEM: xiaomi
-    LUNCH_COMBO: lineage_lavender-user
-    TARGET: bacon
-    OUTPUT: LineageOS*.zip
 
     # Not Recommended to Change
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
