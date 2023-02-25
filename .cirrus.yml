@@ -1,8 +1,8 @@
 env:
     MANIFEST: https://github.com/LineageOS/android.git
-    MANIFEST_BRANCH: lineage-19.1
+    MANIFEST_BRANCH: lineage-20.0
     LOCAL_MANIFEST: https://github.com/Sensei-Developer/local_manifest.git
-    LOCALMANIFEST_BRANCH : lineage-19.1
+    LOCALMANIFEST_BRANCH : lineage-20.0_lavender
     DEVICE: lavender
     OEM: xiaomi
 
