@@ -15,7 +15,10 @@ fi
 source build/envsetup.sh
 
 # lunch the target
-lunch ${LUNCH_COMBO}
+lunch ${LUNCH_COMBO} || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 
 # Build the Code
-make bacon -j8
+mka bacon -j8
+
+# Exit
+exit 0
