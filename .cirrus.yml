@@ -5,6 +5,9 @@ env:
     LOCALMANIFEST_BRANCH : lineage-20.0_lavender
     DEVICE: lavender
     OEM: xiaomi
+    LUNCH_COMBO: lineage_lavender-userdebug
+    TARGET: bacon
+    OUTPUT: LineageOS*.zip
 
     # Not Recommended to Change
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
@@ -32,5 +35,3 @@ task:
   Upload_script:
       - export TIMEOUT=43200 # Download Link Timeout (in Minutes)
       - bash upload.sh
-
-
